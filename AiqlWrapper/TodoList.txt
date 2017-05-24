@@ -1,0 +1,18 @@
+﻿any/all? -> First(foo)>0/First(!foo)==0
+custom measurements
+percentiles
+More datetime functions
+More fields
+Table init
+More tables
+
+Listeners/callbacks for query/performance/debug trees
+Read default performance
+
+restrict non-anon constructors (only last, if ever)
+validate where aggregation functions are used
+Fix unsupported OrderBy(foo).ThenBy(bar).Take(n) -> Top(n, foo).ThenBy(bar) optimization (https://social.msdn.microsoft.com/Forums/en-US/1fefdc83-0c67-4623-af56-13c09df5a006/analytics-multiple-sort-expressions-with-topoperator?forum=ApplicationInsights)
+
+reduce
+Join
+distinct
